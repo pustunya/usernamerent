@@ -1,0 +1,246 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.username__body {
+   background: linear-gradient(45deg, rgb(94, 255, 0), rgb(247, 247, 247));
+}
+
+.username_list {
+
+display: flex;
+flex-wrap: wrap;
+list-style: none;
+gap: 25px;
+
+}
+
+
+.username__item {
+
+width: 30.33%;
+text-align: center;
+background-color: rgb(97, 40, 255);
+padding: 0 0 30px 0;
+border-radius: 5%;
+
+
+}
+
+
+.username__btn {
+
+    margin-left: 10px;
+margin-right: 20px;
+   
+margin-bottom: 20px;
+
+
+
+
+}
+
+
+
+
+.main {
+background: linear-gradient(45deg, rgb(51, 129, 6), rgb(255, 37, 37));
+padding-bottom: 20px;
+
+}
+
+.username__title {
+
+
+margin-bottom: 20px ;
+margin-top: 20px ;
+
+
+text-align: center;
+
+color: white;
+
+}
+
+
+
+
+
+
+.username__nameLonersez {
+
+
+padding: 0 5px 0 5px;
+
+
+}
+
+.username__name {
+
+margin-bottom: 20px;
+color: white;
+
+
+}
+
+
+
+
+
+
+
+.logo {
+
+border-radius: 100%;
+
+
+}
+
+
+.nickname {
+
+gap: 25px;
+
+
+}
+
+
+
+
+
+.header__container {
+
+
+margin-bottom: 0 ;
+padding-bottom: 0 !important;
+
+
+}
+
+
+
+.faqs_title {
+
+
+text-align: center;
+
+}
+
+
+
+.button__check {
+
+
+transform: scale(1.7);
+padding-left: 40px;
+
+}
+
+
+.button_label {
+
+
+padding-left: 40px;
+
+
+}
+
+
+
+.faqs__list {
+
+list-style-image: url(../img/png-klev-club-i4i4-p-strelochka-ikonka-png-7.png);
+
+
+}
+
+
+.faqs_text {
+
+font-size: 20px;
+
+}
+
+
+
+.title_free {
+
+text-align: center;
+color: rgb(252, 155, 155);
+padding-bottom: 30px ;
+padding-top: 10px;
+font-size: 40px;
+text-decoration: none;
+display: flex;
+justify-content: center;
+font-weight: bold;
+
+
+}
+
+
+
+.header {
+
+
+background: linear-gradient(45deg, rgb(94, 255, 0), rgb(255, 47, 47));
+
+}
+
+
+
+
+
+@media (max-width:768px){
+
+.container {
+
+max-width: 540px;
+
+}
+
+.username__item {
+
+width: 45%;
+
+
+}
+
+}
+
+
+@media (max-width:360px){
+
+.container {
+
+max-width: 300px;
+
+}
+
+
+.username__item {
+
+width: 100%;
+
+
+
+}
+
+.username_list {
+
+    padding: 0px;
+}
+
+
+.title_free {
+
+font-size: 25px;
+
+
+}
+
+
+
+}
+
